@@ -1,0 +1,69 @@
+.bg-form{
+    -fx-background-color:linear-gradient(to top left, #1e242e, #EDC9FD);
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom left, #EDBCD9, #A272F0);
+    -fx-cursor:hand;
+}
+
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom left, #EDBCD9, #C22B84);
+}
+
+.signUp-btn{
+    -fx-background-color:linear-gradient(to bottom left, #EDBCD9, #69F845);
+    -fx-cursor:hand;
+}
+
+.signUp-btn:hover{
+    -fx-background-color:linear-gradient(to bottom left, #EDBCD9, #C22B84);
+}
+
+.bg-white{
+    -fx-background-color:#fff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0.0,.3), 8,0,0,0);
+    -fx-background-radius:8px;
+}
+.bg-white:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0.0,.5), 8,0,0,0);
+}
+
+.add-btn{
+    -fx-background-color:#75C36B;
+}
+.add-btn:hover{
+    -fx-background-color:#ADA1E7;
+}
+.table-view{
+    -fx-background-color:#fff;
+    -fx-size:50px;
+   -fx-border-color:#D3A1E7;
+    -fx-font-size: 16px;
+}
+.table-view .column-header-background{
+     -fx-background-color:linear-gradient(to top left, #D3A1E7, #CF6CF7);
+     -fx-background-insets: 0 0 0 0;
+     -fx-background-radius: 10px 0px 0px 0px;
+
+}
+
+.table-view .column-header, .table-view .filler{
+    -fx-background-color:transparent;
+    -fx-size:50px;
+    -fx-fill:#fff;
+}
+
+.bar-btn{
+    -fx-background-color:transparent;
+}.bar-btn:hover{
+    -fx-background-color:linear-gradient(to top left, #D3A1E7, #CF6CF7);
+}
+
+
+.top-bar{
+    -fx-background-color:linear-gradient(to top left, #7E7C7E, #B3ADB5);
+}
+.top-bar:hover{
+    -fx-background-color:linear-gradient(to top left, #D3A1E7, #CF6CF7);
+}
