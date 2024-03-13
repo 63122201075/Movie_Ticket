@@ -35,6 +35,35 @@
 .add-btn:hover{
     -fx-background-color:#ADA1E7;
 }
+
+.update-btn{
+    -fx-background-color:#F1D067;
+}
+.update-btn:hover{
+    -fx-background-color:#ADA1E7;
+}
+
+.delete-btn{
+    -fx-background-color:#EFB3A0;
+}
+.delete-btn:hover{
+    -fx-background-color:#ADA1E7;
+}
+
+.clear-btn{
+    -fx-background-color:#B2B2B2;
+}
+.clear-btn:hover{
+    -fx-background-color:#ADA1E7;
+}
+
+.import-btn{
+    -fx-background-color:#A0ADEF;
+}
+.import-btn:hover{
+    -fx-background-color:#ADA1E7;
+}
+
 .table-view{
     -fx-background-color:#fff;
     -fx-size:50px;
@@ -67,3 +96,22 @@
 .top-bar:hover{
     -fx-background-color:linear-gradient(to top left, #D3A1E7, #CF6CF7);
 }
+
+.seat_special-btn{
+    -fx-background-color:#C2BCF8;
+}
+.seat_special-btn:hover{
+    -fx-background-color:#ADA1E7;
+}
+
+.seat_normal-btn{
+    -fx-background-color:#BCD7F8;
+}
+.seat_normal-btn:hover{
+    -fx-background-color:#ADA1E7;
+}
+
+.seat_selected-btn {
+    -fx-background-color: lightgreen;
+}
+

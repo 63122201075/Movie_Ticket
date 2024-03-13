@@ -7,14 +7,15 @@ import java.sql.SQLException;
 
 //สร้างฐานข้อมูลชื่อ mov_book
 
-//สร้าง ตาราง admin
-//create table admin (
+//สร้าง ตาราง user
+//create table user (
+//id_user INT AUTO_INCREMENT PRIMARY KEY,
 //       email VARCHAR(100),
 //username VARCHAR(100),
 //password VARCHAR(100));
 
 //insert admin data
-//INSERT INTO admin (email, username, password)VALUES ('admin@gmail.com', 'admin', 'admin');
+//INSERT INTO user (email, username, password)VALUES ('admin@gmail.com', 'admin', 'admin');
 
 //สร้าง ตาราง movie
 //CREATE TABLE movie (
@@ -29,15 +30,16 @@ import java.sql.SQLException;
 
 //INSERT INTO movie (movieTitle, genre, duration,image,date)VALUES ('admin@gmail.com', 'admin', 'admin',null,null);
 
-//สร้างตาราง customer_info
+//สร้างตาราง customer_history
 
-//create table customer_info (
+//create table customer_history (
 //        customer_id int auto_increment primary key ,
 //        type varchar(100),
 //total double not null,
 //movieTitle varchar(100),
 //quantity int(100),
-//date Date null default null
+//date Date null default null,
+//username VARCHAR(100)
 //        );
 
 //ต้องแก้ไข

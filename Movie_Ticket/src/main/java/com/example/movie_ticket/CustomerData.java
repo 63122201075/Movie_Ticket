@@ -10,16 +10,19 @@ public class CustomerData {
     private Integer quantity;
     private Date date;
 
+    private String username;
+
     // Constructor, getter และ setter ต่าง ๆ มีไว้เพื่อให้คุณเข้าถึงข้อมูลและกำหนดค่าให้กับฟิลด์ได้
 
     // Constructor
-    public CustomerData(Integer customer_id, String type, double total, String movieTitle, Integer quantity, Date date) {
+    public CustomerData(Integer customer_id, String type, double total, String movieTitle, Integer quantity, Date date, String username) {
         this.customer_id = customer_id;
         this.type = type;
         this.total = total;
         this.movieTitle = movieTitle;
         this.quantity = quantity;
         this.date = date;
+        this.username = username;
     }
 
     // Getter methods
@@ -45,5 +48,9 @@ public class CustomerData {
 
     public Date getDate() {
         return date;
+    }
+
+    public String getUsername(){
+        return username;
     }
 }

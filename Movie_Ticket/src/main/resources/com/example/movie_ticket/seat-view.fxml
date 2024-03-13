@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="seatSelectionPane" prefHeight="400.0" prefWidth="400.0" stylesheets="@login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movie_ticket.SeatSelectionController">
+   <children>
+      <Button layoutX="70.0" layoutY="257.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_special-btn" stylesheets="@login.css" text="A1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="32.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Pane disable="true" layoutX="57.0" layoutY="42.0" prefHeight="63.0" prefWidth="284.0" styleClass="clear-btn" stylesheets="@login.css" />
+      <Button layoutX="125.0" layoutY="257.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_special-btn" text="A2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="33.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button layoutX="71.0" layoutY="206.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" stylesheets="@login.css" text="B1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="126.0" layoutY="206.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" text="B2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="180.0" layoutY="205.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" text="B3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="179.0" layoutY="257.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_special-btn" text="A3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="236.0" layoutY="257.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_special-btn" text="A4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="292.0" layoutY="257.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_special-btn" text="A5">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="236.0" layoutY="205.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" text="B4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="292.0" layoutY="205.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" text="B5">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="34.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button layoutX="72.0" layoutY="151.0" mnemonicParsing="false" styleClass="seat_normal-btn" stylesheets="@login.css" text="C1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="127.0" layoutY="151.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" text="C2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="181.0" layoutY="150.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" text="C3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="150.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" text="C4">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="293.0" layoutY="150.0" mnemonicParsing="false" onAction="#initialize" styleClass="seat_normal-btn" text="C5">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text fx:id="total_text" layoutX="91.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total :" wrappingWidth="242.4276123046875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -10,6 +10,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -60,59 +61,92 @@ public class LoginController {
     private double x = 0;
     private double y = 0;
 
-    public void login() {
-        String sql = "SELECT * FROM admin WHERE username = ? and password = ?";
-        connect = database.getConnection(); //เชื่อมต่อฐานข้อมูล โดยอ้างจาก database.java
+//        public void login() {
+//        String sql = "SELECT * FROM user WHERE username = ? and password = ?";
+//        connect = database.getConnection(); //เชื่อมต่อฐานข้อมูล โดยอ้างจาก database.java
+//
+//        try {
+//            prepare = connect.prepareStatement(sql);
+//            prepare.setString(1, login_username.getText());
+//            prepare.setString(2, login_password.getText());
+//
+//            result = prepare.executeQuery();
+//
+//
+////            ตรวจสอบ username and password ว่าง
+//            if (login_username.getText().isEmpty() || login_password.getText().isEmpty()) {
+//                showAlert_ERROR("Error Message", "Please fill in information");
+//            } else {
+//                if (result.next()) {
+//                    getData.usernamedata = login_username.getText(); //รับข้อมูล username
+//                    showAlert_INFORMATION("Information Message", "Successfully Login!");
+//
+////                    ไปหน้า dashboard
+//                    Parent root = FXMLLoader.load(getClass().getResource("dashboard-view.fxml"));
+//                    Stage stage = new Stage();
+//                    Scene scene = new Scene(root);
+//
+//                    root.setOnMousePressed((MouseEvent event) -> {
+//                        x = event.getSceneX();
+//                        y = event.getSceneY();
+//                    });
+//
+//                    root.setOnMouseDragged((MouseEvent event) -> {
+//                        stage.setX(event.getScreenX() - x);
+//                        stage.setY(event.getScreenY() - y);
+//                    });
+//
+//
+//                    stage.setScene(scene);
+//                    stage.show();
+//
+//                     //ปิดหน้า login
+//                    Stage stage_old = (Stage) login_button.getScene().getWindow();
+//                    stage_old.close();
+//                } else {
+//                    showAlert_ERROR("Error Message", "Wrong Username/Password");
+//                }
+//            }
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+    public void login() throws IOException {
 
         try {
-            prepare = connect.prepareStatement(sql);
-            prepare.setString(1, login_username.getText());
-            prepare.setString(2, login_password.getText());
-
-            result = prepare.executeQuery();
 
 
-//            ตรวจสอบ username and password ว่าง
-            if (login_username.getText().isEmpty() || login_password.getText().isEmpty()) {
-                showAlert_ERROR("Error Message", "Please fill in information");
-            } else {
-                if (result.next()) {
-                    getData.usernamedata = login_username.getText(); //รับข้อมูล username
-                    showAlert_INFORMATION("Information Message", "Successfully Login!");
+            getData.usernamedata = "Test"; //รับข้อมูล username
 
-//                    ไปหน้า dashboard
-                    Parent root = FXMLLoader.load(getClass().getResource("dashboard-view.fxml"));
-                    Stage stage = new Stage();
-                    Scene scene = new Scene(root);
+            Parent root = FXMLLoader.load(getClass().getResource("dashboard-view.fxml"));
+            Stage stage = new Stage();
+            Scene scene = new Scene(root);
 
-                    root.setOnMousePressed((MouseEvent event) -> {
-                        x = event.getSceneX();
-                        y = event.getSceneY();
-                    });
+            root.setOnMousePressed((MouseEvent event) -> {
+                x = event.getSceneX();
+                y = event.getSceneY();
+            });
 
-                    root.setOnMouseDragged((MouseEvent event) -> {
-                        stage.setX(event.getScreenX() - x);
-                        stage.setY(event.getScreenY() - y);
-                    });
+            root.setOnMouseDragged((MouseEvent event) -> {
+                stage.setX(event.getScreenX() - x);
+                stage.setY(event.getScreenY() - y);
+            });
 
 
-                    stage.setScene(scene);
-                    stage.show();
+            stage.setScene(scene);
+            stage.show();
 
-                    login_button.getScene().getWindow().hide(); //ซ่อนหน้า login
-                } else {
-                    showAlert_ERROR("Error Message", "Wrong Username/Password");
-                }
-            }
-
+            login_button.getScene().getWindow().hide(); //ซ่อนหน้า login
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     public void signUp() {
-        String sql = "INSERT INTO admin (username, password, email) VALUES (?, ?, ?)";
-        String sql2 = "SELECT username FROM admin WHERE username = '"+ signUp_username.getText() + "'";;
+        String sql = "INSERT INTO user (username, password, email) VALUES (?, ?, ?)";
+        String sql2 = "SELECT username FROM user WHERE username = '" + signUp_username.getText() + "'";
+        ;
         connect = database.getConnection(); // Get connection from database.java
 
         try {
@@ -122,11 +156,10 @@ public class LoginController {
                 showAlert_ERROR("Error Message", "Please fill in information");
             } else if (signUp_password.getText().length() < 5) {
                 showAlert_ERROR("Error Message", "Password must be more than 5 characters.");
-            } else if(signUp_username.getText().length() > 10){
+            } else if (signUp_username.getText().length() > 10) {
                 showAlert_ERROR("Error Message", "Username must not exceed 10 characters.");
 
-            }
-            else {
+            } else {
 
                 if (validEmail()) {
                     prepare = connect.prepareStatement(sql2);
