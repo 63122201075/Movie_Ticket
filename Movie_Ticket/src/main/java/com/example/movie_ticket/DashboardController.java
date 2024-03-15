@@ -81,8 +81,6 @@ public class DashboardController implements Initializable {
 
     @FXML
     private Button availableMovies_clear;
-    @FXML
-    private Spinner<Integer> availableMovies_specialClass_quan;
 
     @FXML
     private TableView<MoviesData> availableMovies_tableView;
@@ -115,31 +113,12 @@ public class DashboardController implements Initializable {
     private TextField availableMovies_movieTitle;
 
     @FXML
-    private Label availableMovies_normalClass_price;
-
-    @FXML
-    private Spinner<Integer> availableMovies_normalClass_quan;
-
-    @FXML
-    private Button availableMovies_receipt;
-
-    @FXML
-    private Button availableMovies_selectMovie;
-
-    @FXML
-    private Label availableMovies_specialClass_price;
-
-    @FXML
     private Label availableMovies_title;
 
-    @FXML
-    private Label availableMovies_totalPrice;
     //Customers
     @FXML
     private Button customers_button;
 
-    @FXML
-    private Button customers_clear;
 
     @FXML
     private TableView<CustomerData> customers_tableView;
@@ -166,8 +145,6 @@ public class DashboardController implements Initializable {
     private TableColumn<CustomerData, String> customers_col_username;
 
 
-    @FXML
-    private TextField customers_date;
 
     @FXML
     private Button customers_delete;
@@ -175,11 +152,6 @@ public class DashboardController implements Initializable {
     @FXML
     private AnchorPane customers_form;
 
-    @FXML
-    private TextField customers_genre;
-
-    @FXML
-    private TextField customers_movieTitle;
 
     @FXML
     private TextField customers_search;
@@ -187,8 +159,6 @@ public class DashboardController implements Initializable {
     @FXML
     private TextField customers_ticketNumber;
 
-    @FXML
-    private TextField customers_time;
     //dashboard
     @FXML
     private Label dashboard_availableMovies;
@@ -927,24 +897,6 @@ public class DashboardController implements Initializable {
         alert.setContentText(content);
         alert.showAndWait();
     }
-
-//    public void showAlert_CONFIRMATION(String title1, String content1, String title2, String content2) {
-//        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-//        alert.setTitle(title1);
-//        alert.setHeaderText(null);
-//        alert.setContentText(content1);
-//        Optional<ButtonType> option = alert.showAndWait();
-//        if (ButtonType.OK.equals(option.get())) {
-//            alert = new Alert(Alert.AlertType.INFORMATION);
-//            alert.setTitle(title2);
-//            alert.setHeaderText(null);
-//            alert.setContentText(content2);
-//            alert.showAndWait();
-//        } else {
-//            return;
-//        }
-//
-//    }
 
 
 }
