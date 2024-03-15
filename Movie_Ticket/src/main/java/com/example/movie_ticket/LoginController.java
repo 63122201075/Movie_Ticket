@@ -84,7 +84,7 @@ public class LoginController {
 //                    ไปหน้า dashboard
                     Parent root = FXMLLoader.load(getClass().getResource("dashboard-view.fxml"));
                     Stage stage = new Stage();
-                    Scene scene = new Scene(root);
+                    Scene scene = new Scene(root);//1280,720
 
                     root.setOnMousePressed((MouseEvent event) -> {
                         x = event.getSceneX();

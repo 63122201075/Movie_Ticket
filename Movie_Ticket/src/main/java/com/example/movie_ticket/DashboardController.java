@@ -351,7 +351,7 @@ public class DashboardController implements Initializable {
 
         getData.path = moviesData.getImage();
         String uri = "file:" + moviesData.getImage();
-        image = new Image(uri, 200, 256, false, true);
+        image = new Image(uri, 200, 256, true, true);
         addMovies_imageView.setImage(image);
     }
 
@@ -365,7 +365,7 @@ public class DashboardController implements Initializable {
         File file = open.showOpenDialog(stage);
 
         if (file != null) {
-            image = new Image(file.toURI().toString(), 200, 256, false, true);
+            image = new Image(file.toURI().toString(), 200, 256, true, true);
             addMovies_imageView.setImage(image);
             getData.path = file.getAbsolutePath();//เพื่อ get image path
         }
@@ -618,7 +618,7 @@ public class DashboardController implements Initializable {
         getData.path = moviesData.getImage();
         getData.title = moviesData.getMovieTitle();
         String uri = "file:" + getData.path;
-        image = new Image(uri, 200, 256, false, true);
+        image = new Image(uri, 200, 256, true, true);
         availableMovies_imageView.setImage(image);
         availableMovies_movieTitle.setText(getData.title);
 
