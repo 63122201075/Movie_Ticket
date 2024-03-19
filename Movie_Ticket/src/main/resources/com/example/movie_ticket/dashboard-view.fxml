@@ -267,7 +267,7 @@
                                     <Font size="24.0" />
                                  </font>
                               </Button>
-                              <Label fx:id="availableMovies_title" alignment="CENTER" layoutX="145.0" layoutY="346.0" prefHeight="25.0" prefWidth="95.0" text="Lable">
+                              <Label fx:id="availableMovies_title" alignment="CENTER" layoutX="79.0" layoutY="346.0" prefHeight="25.0" prefWidth="227.0" text="Lable">
                                  <font>
                                     <Font size="16.0" />
                                  </font>

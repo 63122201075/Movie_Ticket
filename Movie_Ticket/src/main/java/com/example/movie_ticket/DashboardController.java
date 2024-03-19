@@ -373,20 +373,6 @@ public class DashboardController implements Initializable {
     }
 
 
-    public void movieId() {
-        String sql = "SELECT count(id) FROM movie";
-        connect = database.getConnection();
-        try {
-            prepare = connect.prepareStatement(sql);
-            result = prepare.executeQuery();
-            if (result.next()) {
-                getData.movieId = result.getInt("count(id)");
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     public void insertAddMovies() {
         String sql1 = "SELECT * FROM movie WHERE movieTitle = '" + addMovies_movieTitle.getText() + "'";
@@ -866,7 +852,7 @@ public class DashboardController implements Initializable {
             prepare = connect.prepareStatement(sql);
             result = prepare.executeQuery();
             if (result.next()) {
-                totalMovies = result.getInt("COUNT(movieTitle)");
+                 totalMovies = result.getInt("COUNT(movieTitle)");
             }
         } catch (Exception e) {
             e.printStackTrace();

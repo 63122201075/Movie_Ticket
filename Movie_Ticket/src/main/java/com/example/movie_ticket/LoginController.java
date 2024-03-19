@@ -112,36 +112,6 @@ public class LoginController {
             e.printStackTrace();
         }
     }
-//    public void login() throws IOException {
-//
-//        try {
-//
-//
-//            getData.usernamedata = "Test"; //รับข้อมูล username
-//
-//            Parent root = FXMLLoader.load(getClass().getResource("dashboard-view.fxml"));
-//            Stage stage = new Stage();
-//            Scene scene = new Scene(root);
-//
-//            root.setOnMousePressed((MouseEvent event) -> {
-//                x = event.getSceneX();
-//                y = event.getSceneY();
-//            });
-//
-//            root.setOnMouseDragged((MouseEvent event) -> {
-//                stage.setX(event.getScreenX() - x);
-//                stage.setY(event.getScreenY() - y);
-//            });
-//
-//
-//            stage.setScene(scene);
-//            stage.show();
-//
-//            login_button.getScene().getWindow().hide(); //ซ่อนหน้า login
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
 
     public void signUp() {
         String sql = "INSERT INTO user (username, password, email) VALUES (?, ?, ?)";

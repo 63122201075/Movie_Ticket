@@ -42,9 +42,6 @@ import java.sql.SQLException;
 //username VARCHAR(100)
 //        );
 
-//ต้องแก้ไข
-//sign up
-//        add movie
 
 
 public class database {

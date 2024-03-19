@@ -28,6 +28,7 @@ public class SeatSelectionController {
     private Set<String> already_book = new HashSet<>();
 
 
+
     @FXML
     private void initialize() {
         updateTotalText();
@@ -79,18 +80,6 @@ public class SeatSelectionController {
                 });
             }
         }});
-
-        // กำหนด event handler สำหรับปุ่ม buy
-//        seat_buy.setOnAction(event -> {
-//            if (!selectedSeats.isEmpty()) {
-//                Double totalPrice = calculateTotalPrice();
-//                System.out.println("Total price: $" + getData.total_price);
-//                System.out.println("Selected seats: " + selectedSeats.toString());
-//                System.out.println("Selected seats: " + selectedSeats.size());
-//            } else {
-//                System.out.println("No seats selected!");
-//            }
-//        });
     }
     // เมทอดสำหรับอัพเดตข้อความที่แสดงราคารวมเมื่อมีการเลือกหรือยกเลิกที่นั่ง
     private void updateTotalText() {
