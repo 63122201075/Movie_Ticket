@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbc81bf4-347b-49ee-8c76-0ae06595877e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MMTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MMTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MMTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MMTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/SeatSelectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/4840e5f799f034172a3c81b882169aac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/Avenger_Infinity_war.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/Beauty.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/Black_Adam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/Joker.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/Raya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/Spirited_Away_poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/The-Flash-Movie-Poster-International-01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/The_Batman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/The_Dark_Knight.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/Zootopia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/batch_SVM_TH_MaskedMontage_THdate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/demon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/e7afc8edae40deb97f9dd7b5c626fdfae9197eef8bd16e319d80fcbc826fa46d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/ee513b8c-8a83-4aab-8208-e1e137334eba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/il_570xN.2233267728_b3f0.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/jujutsu_kaisen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/madagascar-poster-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/me1nhu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/order-of-the-phoenix-theatrical-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/s-l1200 (1).webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/s-l1200 (2).webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/s-l1200.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/s-l1600 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/s-l1600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/shzam2-vert-main-2764x4096-dom-1674589983500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/unnamed (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/ดิอเวนเจอร์ส_itunes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/แบล็ค_แพนเธอร์_วาคานด้าจงเจริญ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Movie_Poster/ใบปิดภาพยนตร์_จอมเวทย์มหากาฬ_ในมัลติเวิร์สมหาภัย.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/movie_ticket/seat-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/CustomerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/CustomerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/ImageSlide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/ImageSlide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/Movie_Ticket_Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/Movie_Ticket_Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/getData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_ticket/getData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/image/demon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/image/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/image/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/image/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/image/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/movie_ticket/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/movie_ticket/dashboard-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/movie_ticket/image_slide.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/movie_ticket/image_slide.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/movie_ticket/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/movie_ticket/login.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2dyvGvWpQrEMAxId5hRLLf8Ur9v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Movie_Ticket_Application.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/idea_projects/Movie_Ticket/src/main/resources",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\idea_projects\Movie_Ticket\src\main\resources" />
+      <recent name="C:\Users\ADMIN\Desktop\idea_projects\Movie_Ticket\src\main\resources\com\example\movie_ticket" />
+      <recent name="C:\Users\ADMIN\Desktop\idea_projects\Movie_Ticket\src\main\java\com\example\movie_ticket" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbc81bf4-347b-49ee-8c76-0ae06595877e" name="Changes" comment="" />
+      <created>1710993041692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710993041692</updated>
+    </task>
+    <servers />
+  </component>
+</project>

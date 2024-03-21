@@ -214,7 +214,7 @@ public class DashboardController implements Initializable {
     }
 
     public void displayUsername() {
-        username.setText(getData.usernamedata);
+        username.setText("Hi ! "+getData.usernamedata);
 
 //        String isAdmin = getData.usernamedata;
 //        if (!isAdmin.equals("a")) {
